@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "pre-test":"npm init",
+    "chrome": "cross-env PLUGINENV=QA npx playwright test"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/shashankkvs309668/playwrightTypescript.git"
@@ -16,6 +19,8 @@
   },
   "homepage": "https://github.com/shashankkvs309668/playwrightTypescript#readme",
   "devDependencies": {
-    "@playwright/test": "^1.37.0"
+    "@playwright/test": "^1.37.0",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.3.1"
   }
 }
