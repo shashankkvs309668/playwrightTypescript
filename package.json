@@ -1,0 +1,21 @@
+{
+  "name": "playwrighttypescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shashankkvs309668/playwrightTypescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shashankkvs309668/playwrightTypescript/issues"
+  },
+  "homepage": "https://github.com/shashankkvs309668/playwrightTypescript#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.37.0"
+  }
+}
